@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Company;
+use App\Models\Department;
 use App\Models\Employee;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
@@ -19,6 +21,16 @@ class EmployeeController extends Controller
 
         return view('admin.employee.allEmployee',[
             'allEmployes'=>$allEmployes
+        ]);
+    }
+
+
+    public function create(){
+        $allCompanis = Company::all();
+        $allDepts = Department::all();
+        return view('admin.employee.newEmployee',[
+            'allCompanis'=>$allCompanis,
+            'allDepts'=>$allDepts
         ]);
     }
 }

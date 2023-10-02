@@ -25,6 +25,11 @@
 
                     <div class="card">
                         <div class="card-body">
+
+                            <a href="{{ route('newEmployee') }}" class="btn btn-primary float-end" >
+                                <i class="fa fa-plus"></i> ADD NEW
+                            </a>
+
                             <h5 class="card-title">Employee Table</h5>
 
                             <form action="{{ route('searchResult') }}" method="post">

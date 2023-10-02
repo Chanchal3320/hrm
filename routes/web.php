@@ -31,6 +31,8 @@ Route::get('/newDepartment', [App\Http\Controllers\DepartmentController::class, 
 Route::post('/addDepartment', [App\Http\Controllers\DepartmentController::class, 'store'])->name('addDepartment');
 
 Route::get('/allEmployee', [App\Http\Controllers\EmployeeController::class, 'index'])->name('employee');
+Route::get('/newEmployee', [App\Http\Controllers\EmployeeController::class, 'create'])->name('newEmployee');
+Route::post('/addEmployee', [App\Http\Controllers\EmployeeController::class, 'store'])->name('addEmployee');
 
 
 Route::get('/allIncrement', [App\Http\Controllers\IncreamentController::class, 'index'])->name('increment');
