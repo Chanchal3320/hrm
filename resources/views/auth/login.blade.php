@@ -76,6 +76,14 @@
                                         </div>
                                     </div>
                                 </form>
+                                <br>
+
+
+                                <div class="text-center">
+                                    <p>User Email : admin@gmail.com</p>
+                                    <p>User Password : 123456789</p>
+                                </div>
+
 
                             </div>
                         </div>

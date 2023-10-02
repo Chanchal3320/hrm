@@ -82,7 +82,7 @@
                                     <td>{{ $allEmployee->name }}</td>
                                     <td>{{ $allEmployee->dept_name }}</td>
                                     <td>{{ $allEmployee->designation }}</td>
-                                    <td>{{ $allEmployee->doj }}</td>
+                                    <td>{{ \Carbon\Carbon::parse($allEmployee->doj)->format('d M Y')  }}</td>
                                     <td>{{ $allEmployee->salary	 }}</td>
 
                                 </tr>
