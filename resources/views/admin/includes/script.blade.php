@@ -33,4 +33,5 @@
 
 <script>
     $('#incDate').datepicker();
+    $('#txt_doj').datepicker();
 </script>
