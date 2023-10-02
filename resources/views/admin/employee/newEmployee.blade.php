@@ -1,7 +1,7 @@
 @extends('admin.master')
 
 @section('title')
-    Admin | New Company
+    Admin | New Employee
 @endsection
 
 
@@ -10,12 +10,12 @@
     <main id="main" class="main">
 
         <div class="pagetitle">
-            <h1>New Company</h1>
+            <h1>New Employee</h1>
             <nav>
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="{{ route('home') }}">Home</a></li>
-                    <li class="breadcrumb-item">Company</li>
-                    <li class="breadcrumb-item active">New Company</li>
+                    <li class="breadcrumb-item">Employee</li>
+                    <li class="breadcrumb-item active">New Employee</li>
                 </ol>
             </nav>
         </div><!-- End Page Title -->

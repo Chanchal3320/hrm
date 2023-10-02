@@ -1,7 +1,7 @@
 @extends('admin.master')
 
 @section('title')
-    Admin | New Company
+    Admin | New Department
 @endsection
 
 
@@ -10,12 +10,12 @@
     <main id="main" class="main">
 
         <div class="pagetitle">
-            <h1>New Company</h1>
+            <h1>New Department</h1>
             <nav>
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="{{ route('home') }}">Home</a></li>
-                    <li class="breadcrumb-item">Company</li>
-                    <li class="breadcrumb-item active">New Company</li>
+                    <li class="breadcrumb-item">Department</li>
+                    <li class="breadcrumb-item active">New Department</li>
                 </ol>
             </nav>
         </div><!-- End Page Title -->
@@ -25,7 +25,7 @@
 
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">New Company Form</h5>
+                            <h5 class="card-title">New Department Form</h5>
 
                             <!-- Horizontal Form -->
                             <form action="{{ route('addDepartment') }}" method="post">
